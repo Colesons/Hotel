@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambu Desatado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menú y título-->
+    <header>
+        <h1 class="menu">BambuHotel</h1>
+        <nav>
+            <ul>
+                <li>Inicio Reserva <input class="boton-fechamenu" type="date"></li>
+                <li>Fin Reserva <input class="boton-fechamenu" type="date"></li>
+                <li>Habitaciones <input class ="boton-nummenu" type="number"></li>
+                <li>Huéspedes <input class ="boton-nummenu" type="number"></li>
+                <li><a href="reservados.html">Reservados</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--FIN Menú y título-->
+
+<!--Fromulario de reserva-->
+<div class="form-res">
+    <h1>Formulario de registro para la reserva</h1>
+    <form action="" method="get">
+        <label for="nomb">Nombres y Apellidos: </label>
+        <input class="form" type="text" maxlength="100" name="nomb">
+        <br><br>
+        <label for="dni">DNI: </label>
+        <input class="form" type="number" maxlength="8" name="ap">
+        <br><br>
+        <label for="num">Numero de Telefono: </label>
+        <input class="form" type="number" maxlength="15" name="ap">
+        <br><br>
+        <label for="correo">Correo: </label>
+        <input class="form" type="text" name="correo">
+        <br><br>
+        <label for="pago">Metodo de Pago: </label>
+        <select name="form" class="form">
+            <option value="efe">Efectivo</option>
+            <option value="trans">Transferencia</option>
+            <option value="debi">Debito</option>
+        </select>
+        <br><br>
+        <input class="form" type="submit" name="Reservar" value="Reservar">
+    </form>
+</div>
+<!--fin de formulario-->
+
+
+</body>
+</html>
