@@ -15,7 +15,7 @@ header{
     background-color: rgb(54, 145, 61);
 }
 
-h1{
+.menu{
     width: 100%;
     margin: auto;
     text-align: center;
@@ -126,3 +126,7 @@ form{
 }
 
 /*FIN Reserva de habitaciones*/
+
+.form{
+    margin:20px;
+}
